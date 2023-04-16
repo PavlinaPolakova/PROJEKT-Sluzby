@@ -1,6 +1,14 @@
+
+/* Předem se moc omlouvám za nesplnění úkolu, hlavně ve verzi pro PC, už mě tlačil čas a vůbec jsem si nevěděla rady, jak u text ve druhé a třetí části zarovnat pod sebe, display:block mi nefunguje :( Taky jsem nevěděla, jak natáhnout na celou šířku stránky. Něco je špatně, ale už jsem zoufalá a nevím, kde hledat. Nebo začít odzačátku?
+
+U verze pro mobil mi zase nešlo změnit velikost písma, buď byly všechny odstavce velké 16px nebo všechny 13px, taky nevím, kde je chyba?
+
+Ještě jednou veliká omluva, ale už se mi chtělo brečet :D */
+
+
 html {
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;                          
     box-sizing: border-box;
 }
 
@@ -412,8 +420,6 @@ h1::after {
 
             display: block;
         }
-
-
 
 
 
