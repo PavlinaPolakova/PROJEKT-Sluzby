@@ -1,0 +1,436 @@
+html {
+
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+
+    background-color: #FAFAFA;
+    margin: 0;
+    line-height: 21px;
+    font-size: 16px;
+}
+
+
+.kontejner {
+
+    max-width: 500px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.fotka {
+    width: 350px;
+    height: 290px;
+    margin-top: 60px;
+
+
+
+}
+
+
+p {
+    font-size: 16px;
+    color: #8B8B8B;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+
+h2 {
+   
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 16px;
+    margin-top: 60px;
+    font: bold;
+}
+
+
+.h1 {
+    font-size: 28px;
+    line-height: 37px;
+    margin-top: 0;
+    margin-bottom: 32px;
+  }
+  
+h1::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #407BFF;
+    width: 60px;
+    margin: 0px auto;
+    padding-bottom: 10px;
+}
+
+
+.tlacitka a {
+
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 11px 30px;
+}
+
+.tlacitka p {
+
+    font: color, #FFFFFF;
+}
+
+
+
+.dob {
+    background-color: #407BFF;
+    text-align: center;
+    border-color:#407BFF;
+    margin-bottom: 10px;
+    
+    }
+
+.poh {
+
+    background-color: #8B8B8B;
+    text-align: center;
+    border-color: #8B8B8B;
+    
+        }
+
+
+
+.prvni, .druhy, .treti, .ctvrty, .paty, .sesty {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    width: 460px;
+    height: 80px;
+    font-size: 13px;
+
+}
+
+.prvni, .druhy, .treti, .ctvrty, .paty, .sesty, p {
+
+    flex-direction: row;
+    color: #8B8B8B;
+    margin-top: 30px;
+    font-weight: 300;
+    padding-left: 20px;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.prvni, .druhy, .treti, .ctvrty, .paty, .sesty, img {
+
+    
+    flex-direction: row;
+    justify-content: left;
+   
+    padding: 20px 10px 20px 15px;
+
+}
+
+
+        /* ! TABLET */
+@media screen and (min-width: 640px) {
+
+    .kontejner {
+
+        max-width: 800px;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+        
+    }
+
+    .fotka {
+        width: 400px;
+        height: 290px;
+        margin-top: 60px;
+    
+    
+    
+    }
+
+    .tlacitka a {
+
+        display: inline-block;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 14px;
+        border-radius: 20px;
+        padding: 11px 30px;
+    }
+
+    .p {
+        padding: 0px;
+        margin: 0px;
+        
+    }
+
+    .dob {
+
+        margin-right: 20px;
+    }
+
+
+    .box1 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+
+
+    }
+
+    .prvni, .druhy, .treti {
+
+        display: inline-flex;
+        flex-direction: column;
+        width: 230px;
+        height: 172px;
+        margin-top: 0
+    }
+
+    .prvni, .druhy, .treti, p {
+
+        
+        justify-content: center;
+        text-align: center;
+        margin-top: 0;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 30px;
+        line-height: 17px;
+    }
+
+
+    .prvni, .druhy, .treti, img {
+
+        margin-top: 40px;
+        margin-bottom: 0;
+        align-items: center;
+        
+    }
+
+    
+    .box2 {
+
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 60px;
+
+    }
+
+    .ctvrty, .paty, .sesty {
+
+        display: inline-flex;
+        flex-direction: column;
+        width: 230px;
+        height: 172px;
+        margin-top: 0
+    }
+
+    .ctvrty, .paty, .sesty, p {
+    
+        justify-content: center;
+        text-align: center;
+        margin-top: 0;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 30px;
+    
+    
+    }
+
+
+    /* ! VERZE PRO PC */
+
+    @media screen and (min-width: 1100px) {
+
+        .kontejner {
+
+            display: flex;
+            width: 1040px;
+            margin: 0px;
+            flex-wrap: wrap;
+            flex-basis: 100%;
+            
+        }
+
+        .uvod {
+
+            display: flex;
+            flex-direction: row-reverse;
+            flex-basis: 100%;
+            align-items: stretch;
+        }
+
+        .h1 {
+
+            display: flex;
+            text-align: left;
+            justify-content: left;
+            margin-bottom: 32px;
+            
+            
+        
+        }
+
+        p {
+
+        margin-bottom: 30px;
+        padding: 0%;
+        font-size: 16px;
+        text-align: left;
+
+        }
+
+        .tlacitka {
+            display: inline-block;
+            justify-content: left;
+            justify-items: left;
+
+
+        }
+
+        .levastr p {
+
+            
+            text-align: left;
+            font-style: 18px;
+
+
+
+        }
+
+
+        .levastr {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            justify-content: left;
+            margin-top: 133px;
+            margin-left: 82px;
+            flex-basis: 50%;
+
+        }
+
+        .box1 p {
+
+            font-size: 13px;
+            justify-content: center;
+            text-align: center;
+            flex-basis: 50%;
+           
+
+            
+        }
+
+
+        .box2 p {
+
+            font-size: 13px;
+            justify-content: center;
+            text-align: center;
+            flex-basis: 50%;
+            
+        }
+        
+        
+
+        .fotka {
+
+            
+            justify-content: right;
+            width: 426px;
+            height: 354px;
+            flex-basis: 50%;
+            
+              
+            
+            }
+            
+        .cast2 {
+
+            display: flex;
+            flex-direction: row-reverse;
+            margin-left: 80px;
+            margin-top: 140px;
+            
+
+        }
+
+        .cast2 p, h2 {
+
+            text-align: left;
+            display: block;
+            
+            
+            
+
+        }
+
+        .box1 {
+
+            justify-items: flex-start;
+            flex-basis: 50%;
+            margin-right: 60px;
+            
+        }
+
+        .cast3 {
+
+            display: flex;
+            flex-direction: row;
+            margin-left: 80px;
+        }
+
+        .box2 {
+
+            justify-items: flex-end;
+            flex-basis: 50%;
+        }
+
+        .cast3 p {
+
+            display: block;
+        }
+
+
+
+
+
+
+
+        
+    }
+   
+
+
+
+
+
+
+
+
+
+
+    
+}
